@@ -1,0 +1,5 @@
+---
+- hosts: test
+  tasks:
+    name: install httpd*
+    yum: name=httpd state=latest
